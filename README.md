@@ -159,7 +159,7 @@ pcall(function()
 end)
 
 local DeleteMobLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMob%20GUI.lua"))();
-local Window = DeleteMobLib:CreateWindow(Enum.KeyCode.RightShift, "DeleteMob");
+local Window = DeleteMobLib:CreateWindow(Enum.KeyCode.RightShift, "GeyNet");
 local UIToggle = Window:CreateToggleButton()
 
 local SilentAimTab = Window:CreateTab("Silent Aim");
